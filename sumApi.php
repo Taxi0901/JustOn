@@ -4,9 +4,9 @@
 header('Content-Type: application/json; charset=UTF-8');
 
 // recieve POST values
-// $json_string = file_get_contents('php://input');
-$json_string = file_get_contents('data.json');
+$json_string = file_get_contents('php://input');
 
+// JSON object to array
 $data = json_decode($json_string, true);
 
 if (isset($data["address"]["values"])) {
@@ -20,7 +20,6 @@ if (isset($data["address"]["values"])) {
     $statusCode = 400;
 
 }
-
 
 // set HTTP status code
 http_response_code($statusCode);
