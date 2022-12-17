@@ -12,7 +12,7 @@ $context = array(
     )
 );
 
-$response = file_get_contents($url, true, stream_context_create($context));
+$response = file_get_contents($url, false, stream_context_create($context));
 
 echo '<pre>';
 print_r($response);
