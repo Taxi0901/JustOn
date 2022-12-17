@@ -8,6 +8,7 @@ $context = array(
     "http" => array(
         "method"  => "POST",
         "header"  => implode("\r\n", array("Content-Type: application/x-www-form-urlencoded",)),
+        "ignore_errors" => true,
         "content" => $data
     )
 );
