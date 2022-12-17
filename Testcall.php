@@ -2,7 +2,7 @@
 
 $url = "https://sum-juston.herokuapp.com/sum.php";
 
-$data = file_get_contents("TestData.json");
+$data = file_get_contents("testData.json");
 
 $context = array(
     "http" => array(
