@@ -16,5 +16,5 @@ $context = array(
 $response = file_get_contents($url, false, stream_context_create($context));
 
 echo '<pre>';
-print_r($response);
+print_r("response : <br>" . $response . "<br><br> HTTP code : " . $http_response_header[0]);
 echo '</pre>';
