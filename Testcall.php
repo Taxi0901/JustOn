@@ -1,6 +1,6 @@
 <?php
 
-$url = "http://localhost:8888/training/JustOn/sum.php";
+$url = "https://sum-juston.herokuapp.com/sum.php";
 
 $data = file_get_contents("TestData.json");
 
