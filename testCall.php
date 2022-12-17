@@ -14,4 +14,6 @@ $context = array(
 
 $response = file_get_contents($url, true, stream_context_create($context));
 
-echo $response;
+echo '<pre>';
+print_r($response);
+echo '</pre>';
