@@ -1,10 +1,7 @@
 # JustOn
 Programming Challenge
 
-Source Code : https://github.com/Taxi0901/JustOn
-
 Web Service URL : https://sum-juston.herokuapp.com/sum.php
-
 
 Main parts of my work
 - I developed a Web service on Heroku, which accepts HTTP POST requests with JSON format data and responses sum of values of request data.
